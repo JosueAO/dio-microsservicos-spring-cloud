@@ -1,11 +1,10 @@
-server:
-  port: 8882
+#server:
+#  port: 8882
 
-#spring:
+spring:
+  application:
+    name: shopping-cart
 
-#  application:
- #   name: shopping-cart
-
-#cloud:
-#  config:
-#    uri: http://localhost:8888
+ cloud:
+  config:
+    uri: http://localhost:8888
