@@ -34,5 +34,4 @@ public class ProductController {
     public Iterable<Product> findByName(@PathVariable("name") String name) {
         return productRepository.findByName(name);
     }
-
 }
